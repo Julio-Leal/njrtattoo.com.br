@@ -144,7 +144,14 @@ main {
 }
 
 .container-contato {
-    margin-top: 15px;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+.container-contato h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
 }
 
 .conteudo-contato ul {
