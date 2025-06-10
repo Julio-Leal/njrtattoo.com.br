@@ -18,6 +18,12 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+main { 
+    display: grid;
+    background-color: #0D0D0D;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -61,12 +67,6 @@ nav li a:hover {
     color: white
 }
 
-main { 
-    display: grid;
-    background-color: #0D0D0D;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .container-sobre {
     color: white;
     padding: 30px;
@@ -74,7 +74,7 @@ main {
 }
 
 .container-sobre h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 1.8rem;
 }
 
@@ -83,6 +83,28 @@ main {
     align-items: flex-start;
     gap: 15px;
 }
+
+.conteudo-sobre-wrap {
+  color: white;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-enrolada {
+  float: left;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.conteudo-sobre-wrap p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
 
 .foto-perfil img {
     width: 150px;
@@ -246,6 +268,15 @@ main {
     height: auto;
   }
 
+  .foto-enrolada {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  .conteudo-sobre-wrap p {
+    text-align: justify;
+  }
 
 }
 
