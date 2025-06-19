@@ -1,13 +1,13 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background-color: #1a1a1a;
 }
 
-header {
+  header {
     height: 400px;
     width: 100%;
     max-width: 100%;
@@ -16,73 +16,73 @@ header {
     background-position: 70% 90%;
     background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  }
 
-main { 
+  main { 
     display: grid;
     background-color: #0D0D0D;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-}
+  }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: left;
-    font-weight: bold;
-    gap: 2rem;
-    padding: 15px 30px;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  gap: 2rem;
+  padding: 15px 30px;
 }
 
 nav li a {
-    text-decoration: none;
-    color: #ea9318;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #ea9318;
+  font-size: 1.1rem;
+  transition: color 0.3s;
 }
 
 nav li a:hover {
-    color: white;
+  color: white;
 }
 
 .hero-content {
-    color: white;
-    font-size: 30px;
-    padding: 15px 30px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 30px;
 }
 
 .hero-content button {
-    background-color: #ea9318;
-    margin-top: 15px;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #ea9318;
+  margin-top: 15px;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .hero-content button:hover {
-    color: white
+  color: white
 }
 
 .container-sobre {
-    color: white;
-    padding: 30px;
-    margin: 0;
+  color: white;
+  padding: 30px;
+  margin: 0;
 }
 
 .container-sobre h2 {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
 }
 
 .conteudo-sobre {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .conteudo-sobre-wrap {
@@ -108,98 +108,103 @@ nav li a:hover {
 
 
 .foto-perfil img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .texto-sobre {
-    max-width: 600px;
-    line-height: 1.6;
-    text-align: justify;
+  max-width: 600px;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .container-meu-trabalho {
-    color: white;
-    padding: 30px;
-    margin: 0;
+  color: white;
+  padding: 30px;
+  margin: 0;
 }
 
 .container-meu-trabalho h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 .conteudo-meu-trabalho {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  gap: 15px;
 }
 
 .imagem-meu-trabalho img {
-    width: 150px;
-    height: 180px;
+  width: 150px;
+  height: 180px;
+  transition: transform 0.3s ease;
+}
+
+.imagem-meu-trabalho img:hover {
+  transform: scale(1.05);
 }
 
 /* conteúdo meu studio*/
 
 .container-meu-studio {
-    color: white;
-    padding: 30px;
-    margin: 0;
+  color: white;
+  padding: 30px;
+  margin: 0;
 }
 
 .container-meu-studio h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 .conteudo-meu-studio {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  gap: 15px;
 }
 
 .imagem-meu-studio img {
-    width: 150px;
-    height: 180px;
+  width: 150px;
+  height: 180px;
 }
 
 .container-contato {
-    color: white;
-    padding: 30px;
-    margin: 0;
+  color: white;
+  padding: 30px;
+  margin: 0;
 }
 
 .container-contato h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 .conteudo-contato ul {
-    list-style: none;
-    justify-content: left;
-    font-weight: bold;
-    gap: 2rem;
-    line-height: 2;
+  list-style: none;
+  justify-content: left;
+  font-weight: bold;
+  gap: 2rem;
+  line-height: 2;
 }
 
 .conteudo-contato li a {
-    text-decoration: none;
-    color: #ea9318;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #ea9318;
+  font-size: 1.1rem;
+  transition: color 0.3s;
 }
 
 .conteudo-contato li a:hover {
-    color: white;
+  color: white;
 }
 
 .row-contato {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
